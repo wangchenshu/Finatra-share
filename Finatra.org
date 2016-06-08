@@ -1,0 +1,32 @@
+* [[http://twitter.github.io/finatra/v1/index.html][Finatra]]
+The scala web framework inspired by [[http://www.sinatrarb.com/][Sinatra]] and powered by [[http://twitter.github.io/twitter-server/][Twitter-Server]]
+Latest news: [[http://twitter.github.io/blog/2016/04/28/announcing-the-release-of-finatra-v2-dot-1-6/][Finatra Release 2.1.6 is now available!]]
+
+** Features
+*** Fully Async using Futures
+*** Mustache Templates
+*** Detailed Metrics (p99,p999, etc)
+*** Profile/Debug over HTTP
+*** SSL/TLS Support
+*** Deploys with a single jar
+
+** [[http://twitter.github.io/finatra/v1/docs/tutorial.html][Tutorial]]
+
+*** Getting a Finatra App
+This will help you get your first Finatra application up and running.
+
+*** Download Finatra Example App
+This is the fastest way to get started.
+[[https://github.com/capotej/finatra-example/archive/master.zip][Download Finatra Example App]]
+
+*** Generate your own
+1. Download the latest Finatra [[https://github.com/twitter/finatra/archive/1.5.3.zip][release]].
+2. Generate your app with ./finatra new com.acme.MyAppName.
+3. A directory called MyAppName wil be generated.
+
+*** Starting the App
+Then just run sbt run or mvn scala:run from the app directory and you should have a server running on port :7070!
+
+*** More information
+See the [[http://twitter.github.io/finatra/v1/docs/index.html][Documentation]] or [[http://twitter.github.io/finatra/v1/docs/configuration.html][Configuration]] for more information.
+
